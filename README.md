@@ -27,7 +27,7 @@ Qredit mobile wallet is a hybrid application (using the same codebase for Androi
 
 ## Build
 
-First follow the steps below to install the dependencies:
+Install the dependencies and build the APK:
 
 ```bash
 $ npm install -g ionic cordova@7.1.0
