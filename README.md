@@ -41,7 +41,7 @@ $ ionic cordova build --release android
 Sign (android) APK:
 
 ```bash
-$ cd /platforms/android/app/build/outputs/apk/release
+$ cd platforms/android/app/build/outputs/apk/release
 $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release-unsigned.apk alias_name
 $ zipalign -v 4 app-release-unsigned.apk Qredit.apk
 ```
