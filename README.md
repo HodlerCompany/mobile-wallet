@@ -8,6 +8,7 @@ Qredit mobile wallet is a hybrid application (using the same codebase for Androi
 ## Download
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.qredit.wallet.mobile)
+- [APK Release](https://github.com/HodlerCompany/mobile-wallet/releases)
 
 
 ## Features
