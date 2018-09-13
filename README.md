@@ -33,9 +33,9 @@ Install the dependencies and build the APK:
 ```bash
 $ npm install -g ionic cordova@7.1.0
 $ npm install
-$ ionic cordova prepare android/ios
+$ ionic cordova prepare android
 $ ionic cordova plugin rm cordova-plugin-console
-$ ionic cordova build --release android/ios
+$ ionic cordova build --release android
 ```
 
 Sign (android) APK:
