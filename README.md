@@ -37,6 +37,13 @@ $ ionic cordova plugin rm cordova-plugin-console
 $ ionic cordova build --release android/ios
 ```
 
+Sign APK:
+
+```bash
+$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release-unsigned.apk alias_name
+$ zipalign -v 4 app-release-unsigned.apk Qredit.apk
+```
+
 Run on device:
 
 ```bash
